@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  client:
+    container_name: adibnavac
+    build:
+      context: ./
+      dockerfile: Dockerfile.dev
+    ports:
+      - ${CLIENT_PORT}:3000
+    command: sleep infinity
+    volumes:
+      - ./:/usr/src/client
