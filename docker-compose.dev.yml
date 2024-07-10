@@ -7,7 +7,7 @@ services:
       context: ./
       dockerfile: Dockerfile.dev
     ports:
-      - ${CLIENT_PORT}:3000
+      - ${CLIENT_PORT:-3000}:3000
     command: sleep infinity
     volumes:
       - ./:/usr/src/client
