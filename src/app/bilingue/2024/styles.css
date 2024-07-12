@@ -1,16 +1,26 @@
 body {
-    background-image: url(./images/background.desktop.jpg);
+    background-image: url(./images/background.mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: bottom;
 }
 
-@media screen and (max-width: 768px) {
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url(../../../../public/fonts/CaviarDreams.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-caviar {
+    font-family: 'Caviar Dreams', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
     body {
-        background-image: url(./images/background.mobile.jpg);
+        background-image: url(./images/background.desktop.jpg);
     }
-    
 }
 
 .bg-bilingue {
