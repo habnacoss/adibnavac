@@ -2,11 +2,6 @@
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import './styles.css';
-import instagram from './images/instagram.png';
-import youtube from './images/youtube.png';
-import googlephotos from './images/googlephotos.png';
-import Image from 'next/image'
-
 
 export default function Bilingue2024() {
   const searchParams = useSearchParams();
