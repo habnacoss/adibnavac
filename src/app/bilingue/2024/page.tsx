@@ -14,7 +14,7 @@ export default function Bilingue2024() {
   const photos = searchParams.get("photos")?.toString() ?? "";
 
   return (
-    <main className="flex flex-col max-h-screen items-center font-sans px-5 py-5 md:py-20 lg:pt-10">
+    <main className="flex flex-col max-h-screen items-center font-sans px-10 py-10 md:py-20 lg:pt-10">
 
       <div className="flex flex-col max-w-2xl my-auto bg-white opacity-95 rounded-3xl px-16 md:px-20 pt-10 pb-3 shadow-2xl">
         <p className="text-center sm:text-sm md:text-lg">
