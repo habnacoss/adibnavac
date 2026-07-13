@@ -73,7 +73,7 @@ export default function Bilingue2026() {
             )}
             {student && (
               <p className="text-blue-200 text-sm mt-2 opacity-70">
-                ¡Que cada día esté lleno de nuevos comienzos y oportunidades emocionantes!
+                ✨ El mundo es tuyo — atrévete a soñar en grande y nunca dejes de volar.
               </p>
             )}
             {!student && hash && (
