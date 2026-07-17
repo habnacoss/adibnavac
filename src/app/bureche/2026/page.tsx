@@ -33,7 +33,7 @@ function YouTubeIcon() {
   );
 }
 
-export default function Bilingue2026() {
+export default function bureche2026() {
   const searchParams = useSearchParams();
   const hash = searchParams.get("h") ?? "";
   const student = hash ? findStudentByHash(hash) : undefined;
