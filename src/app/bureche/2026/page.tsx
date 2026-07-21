@@ -54,7 +54,7 @@ export default function Bureche2026() {
         <h1 className="student-name-overlay">{displayName}</h1>
 
         <Image
-          src="/bureche/2026/images/background/button 1.png"
+          src="/bureche/2026/images/background/button 3.png"
           height={1080}
           width={1920}
           className="button-image button-image-1"
@@ -75,19 +75,19 @@ export default function Bureche2026() {
           alt="button"
           priority
           onClick={() => {
-            window.location.href = "https://drive.google.com/drive/folders/1DunRmlrixbvUV-GRBdJmfgVnHSpZEHGA?usp=drive_link";
+            window.location.href = "https://www.youtube.com/playlist?list=PLS4QHUGEu79Y";
           }}
         />
 
         <Image
-          src="/bureche/2026/images/background/button 3.png"
+          src="/bureche/2026/images/background/button 1.png"
           height={1080}
           width={1920}
           className="button-image button-image-3"
           alt="button"
           priority
           onClick={() => {
-            window.location.href = "https://www.youtube.com/playlist?list=PLS4QHUGEu79Y";
+            window.location.href = "https://drive.google.com/drive/folders/1DunRmlrixbvUV-GRBdJmfgVnHSpZEHGA?usp=drive_link";
           }}
         />
       </div>
