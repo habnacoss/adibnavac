@@ -51,11 +51,32 @@ body {
 .student-name-overlay {
     position: absolute;
     left: 50%;
-    top: 50rem;
+    top: calc(36%);
     transform: translateX(-50%);
     margin: 0;
     color: transparent;
-    font-size: clamp(1.5rem, 4vw, 3rem);
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    text-align: center;
+    /* text-shadow: 0 4px 20px rgba(0, 0, 0, 0.9); */
+    padding: 0.35rem 0.8rem;
+    background: rgba(0, 0, 0, 0.35);
+    background-color: #28361281;
+    border-radius: 10px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px #000;
+}
+
+.button-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    color: transparent;
+    font-size: 2rem;
     font-weight: 900;
     letter-spacing: 0.04em;
     text-align: center;
@@ -69,6 +90,38 @@ body {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 0.5px #000;
 }
+
+.button-text-1 {
+    top: calc(50% - 100px);
+}
+.button-text-2 {
+    top: calc(50% + 100px);
+}
+.button-text-3 {
+    top: calc(50% + 300px);
+}
+
+.button-image {
+    position: absolute;
+    cursor: pointer;
+    filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.5));
+    width: calc(80%);
+    margin-left: calc(10%);
+}
+
+.button-image:hover {
+    filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.8));
+}
+
+.button-image-1 {
+    top: calc(50% - 100px);
+}
+.button-image-2 {
+    top: calc(50% + 100px);
+}
+ .button-image-3 {
+    top: calc(50% + 300px);
+ }
 
 @media (min-width: 576px) {
     .container {

@@ -52,6 +52,47 @@ export default function Bureche2026() {
           priority
         />
         <h1 className="student-name-overlay">{displayName}</h1>
+
+        <Image
+          src="/bureche/2026/images/background/button.png"
+          height={1080}
+          width={1920}
+          className="button-image button-image-1"
+          alt="button"
+          priority
+          onClick={() => {
+            if (student) {
+              window.location.href = student.photosUrl;
+            }
+          }}
+        />
+        <h1 className="button-text button-text-1">MEMORIAS FOTOGRÁFICAS</h1>
+
+        <Image
+          src="/bureche/2026/images/background/button.png"
+          height={1080}
+          width={1920}
+          className="button-image button-image-2"
+          alt="button"
+          priority
+          onClick={() => {
+            window.location.href = "https://drive.google.com/drive/folders/1DunRmlrixbvUV-GRBdJmfgVnHSpZEHGA?usp=drive_link";
+          }}
+        />
+        <h1 className="button-text button-text-2">PROYECCIÓN CINEMÁTICA</h1>
+
+        <Image
+          src="/bureche/2026/images/background/button.png"
+          height={1080}
+          width={1920}
+          className="button-image button-image-3"
+          alt="button"
+          priority
+          onClick={() => {
+            window.location.href = "https://www.youtube.com/playlist?list=PLS4QHUGEu79Y";
+          }}
+        />
+        <h1 className="button-text button-text-3">DESCARGA JURASSICA</h1>
       </div>
 
     </main>
