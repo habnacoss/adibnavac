@@ -76,37 +76,14 @@ body {
     transform: translateX(-50%);
     margin: 0;
     color: transparent;
-    font-size: 2rem;
-    font-weight: 900;
-    letter-spacing: 0.04em;
-    text-align: center;
-    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.9);
-    padding: 0.35rem 0.8rem;
-    background: rgba(0, 0, 0, 0.35);
-    border-radius: 10px;
-    background-image: linear-gradient(165deg, #d6f7a3 0%, #95d65c 22%, #5ca92c 50%, #3f7d1a 72%, #274e10 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 0.5px #000;
-}
-
-.button-text-1 {
-    top: calc(50% - 100px);
-}
-.button-text-2 {
-    top: calc(50% + 100px);
-}
-.button-text-3 {
-    top: calc(50% + 300px);
 }
 
 .button-image {
     position: absolute;
     cursor: pointer;
     filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.5));
-    width: calc(80%);
-    margin-left: calc(10%);
+    width: calc(70%);
+    margin-left: calc(15%);
 }
 
 .button-image:hover {
@@ -114,13 +91,13 @@ body {
 }
 
 .button-image-1 {
-    top: calc(50% - 100px);
+    top: calc(50%);
 }
 .button-image-2 {
-    top: calc(50% + 100px);
+    top: calc(58%);
 }
  .button-image-3 {
-    top: calc(50% + 300px);
+    top: calc(66%);
  }
 
 @media (min-width: 576px) {
